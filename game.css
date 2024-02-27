@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+body {
+    background-color: #0C0F0A;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+canvas {
+    background-color: #094C34;
+}
+
+.scalines { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: repeating-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 3px, transparent 2px, transparent 4px);
+    pointer-events: none;
+    z-index: 2;
+} /* Colocar linhas na tela. */
+
